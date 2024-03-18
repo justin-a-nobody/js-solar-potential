@@ -48,8 +48,8 @@
 </script>
 
 <svelte:head>
-  <title>Solar API demo</title>
-  <meta name="description" content="Solar API demo" />
+  <title>Helios Solar Maps</title>
+  <meta name="description" content="Solar Maps" />
 </svelte:head>
 
 <main class="surface on-surface-text body-medium flex flex-col w-screen h-screen">

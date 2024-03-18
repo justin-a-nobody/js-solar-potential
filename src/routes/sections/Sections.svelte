@@ -35,9 +35,9 @@
   let showPanels = true;
 
   // User settings
-  let monthlyAverageEnergyBillInput = 300;
-  let panelCapacityWattsInput = 250;
-  let energyCostPerKwhInput = 0.31;
+  let monthlyAverageEnergyBillInput = 155;
+  let panelCapacityWattsInput = 415;
+  let energyCostPerKwhInput = 0.163;
   let dcToAcDerateInput = 0.85;
 
   // Find the config that covers the yearly energy consumption.

@@ -25,8 +25,8 @@
 
   const googleMapsApiKey = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
   const defaultPlace = {
-    name: 'Rinconada Library',
-    address: '1213 Newell Rd, Palo Alto, CA 94303',
+    name: 'Solar House',
+    address: '4 Forest Glen Court, Dardeen Prairie, MO 63368',
   };
   let location: google.maps.LatLng | undefined;
   const zoom = 19;
@@ -63,11 +63,11 @@
       zoom: zoom,
       tilt: 0,
       mapTypeId: 'satellite',
-      mapTypeControl: false,
-      fullscreenControl: false,
-      rotateControl: false,
+      mapTypeControl: True,
+      fullscreenControl: True,
+      rotateControl: True,
       streetViewControl: false,
-      zoomControl: false,
+      zoomControl: True,
     });
   });
 </script>

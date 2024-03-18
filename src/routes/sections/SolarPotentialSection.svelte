@@ -51,15 +51,15 @@
 
   // [START solar_potential_calculations]
   // Solar configuration, from buildingInsights.solarPotential.solarPanelConfigs
-  let panelsCount = 20;
-  let yearlyEnergyDcKwh = 12000;
+  let panelsCount = 18;
+  let yearlyEnergyDcKwh = 10000;
 
   // Basic settings
-  let monthlyAverageEnergyBill: number = 300;
-  let energyCostPerKwh = 0.31;
-  let panelCapacityWatts = 400;
-  let solarIncentives: number = 7000;
-  let installationCostPerWatt: number = 4.0;
+  let monthlyAverageEnergyBill: number = 155;
+  let energyCostPerKwh = 0.163;
+  let panelCapacityWatts = 550;
+  let solarIncentives: number = (installationCostPerWatt * yearlyEnergyDcKwh) * .33;
+  let installationCostPerWatt: number = 2.75;
   let installationLifeSpan: number = 20;
 
   // Advanced settings

@@ -63,11 +63,11 @@
       zoom: zoom,
       tilt: 0,
       mapTypeId: 'satellite',
-      mapTypeControl: True,
-      fullscreenControl: True,
-      rotateControl: True,
+      mapTypeControl: true,
+      fullscreenControl: true,
+      rotateControl: true,
       streetViewControl: false,
-      zoomControl: True,
+      zoomControl: true,
     });
   });
 </script>

@@ -48,8 +48,8 @@
 </script>
 
 <svelte:head>
-  <title>Helios Solar Maps</title>
-  <meta name="description" content="Solar Maps" />
+  <title>HELIOS SOLAR</title>
+  <meta name="description" content="Helios Map App" />
 </svelte:head>
 
 <main class="surface on-surface-text body-medium flex flex-col w-screen h-screen">

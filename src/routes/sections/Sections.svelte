@@ -36,7 +36,7 @@
 
   // User settings
   let monthlyAverageEnergyBillInput = 155;
-  let panelCapacityWattsInput = 415;
+  let panelCapacityWattsInput = 550;
   let energyCostPerKwhInput = 0.163;
   let dcToAcDerateInput = 0.85;
 

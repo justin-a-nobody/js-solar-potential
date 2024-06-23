@@ -246,9 +246,6 @@
       {/if}
       <div class="flex flex-row">
         <div class="grow" />
-        <md-filled-tonal-button role={undefined} on:click={() => apiResponseDialog.show()}>
-          API response
-        </md-filled-tonal-button>
       </div>
 
       <md-dialog bind:this={apiResponseDialog}>

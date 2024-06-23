@@ -15,7 +15,9 @@
     "test:unit": "vitest run --coverage"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "mariadb": "^3.3.0"
   },
   "devDependencies": {
     "@fontsource/fira-mono": "^5.0.8",
